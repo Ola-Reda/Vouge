@@ -1,0 +1,33 @@
+:root{
+    --primary: #6995B1;
+    --primary-hover: #5A84A0;
+    --heading: #1A1A1A;
+    --paragraph: #555555;
+    --text-secondary: #191919;
+    --white-text: #ffffff;
+    --bg: #FFFFFF;
+    --border: #EAEAEA;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Login/Register*/
+.box {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+/*Login/Register*/
+
+/*navbar*/
+
+
+/*navbar*/
