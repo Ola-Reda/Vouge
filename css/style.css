@@ -74,6 +74,12 @@ a {
     color: var(--primary-hover);
     text-decoration: underline;
 }
+
+@media (max-width: 1200px) {
+    .form-box h2 {
+        font-size: 2rem;
+    }
+}
 /*Login/Register*/
 
 /*navbar*/
