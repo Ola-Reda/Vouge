@@ -49,7 +49,7 @@ a {
 }
 
 .form-control::placeholder {
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 .form-box button {
@@ -81,8 +81,87 @@ a {
     }
 }
 /*Login/Register*/
+/****************/
+/*header*/
+header .upper-header {
+    border-bottom: 1px solid var(--border);
+}
 
+header .upper-header p {
+    color: var(--paragraph);
+    font-size: .875rem;
+    animation: move 6s linear infinite;
+}
+
+@keyframes move {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(100%); }
+}
 /*navbar*/
+.navbar-brand {
+    color: var(--heading) !important;
+    font-weight: bold;
+    font-size: 1.875rem;
+}
 
+.tagline {
+    color: #808080;
+    font-size: .875rem;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 5%;
+}
 
+.nav-link {
+    color: var(--text-secondary);
+    margin-inline: 0.63rem;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--primary-hover);
+}
+
+.navbar-toggler {
+    border: 2px solid var(--border);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.group .links a {
+    color: var(--white-text);
+    border-radius: 8px;
+    padding: 12px 18px;
+    border: 1px solid transparent;
+    transition: .5s ease-in;
+}
+
+.group .links a:first-child {
+    background-color: var(--heading);
+}
+
+.group .links a:last-child {
+    background-color: var(--primary);
+}
+
+.group .links a:first-child:hover {
+    background: transparent;
+    color: var(--heading);
+    border-color: var(--heading);
+}
+
+.group .links a:last-child:hover {
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+@media (max-width: 992px) {
+    .group {
+        margin-top: 20px;
+    }
+}
 /*navbar*/
+/*header*/
+/****************/

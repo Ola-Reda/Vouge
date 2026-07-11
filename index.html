@@ -10,23 +10,25 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <!--Navbar-->
         <header>
-            <div>
-                <i class="fa-regular fa-truck fa-fade"></i>
-                <p>Free shipping on a purchase value of $ 200</p>
+            <div class="upper-header d-flex align-items-center justify-content-center p-2">
+                <p class="mb-0">
+                    <i class="fa-regular fa-truck"></i>
+                    Free shipping on a purchase value of $ 200
+                </p>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <div>
                         <a class="navbar-brand" href="index.html">Vouge.</a>
                         <p class="tagline">Casual wear store</p>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <i class="fa-solid fa-bars"></i>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
@@ -44,9 +46,9 @@
                             </li>
                         </ul>
                         <div class="group">
-                            <div>
-                                <a href="login.html">login</a>
-                                <a href="register.html">signup</a>
+                            <div class="links">
+                                <a href="login.html">Login</a>
+                                <a href="register.html">SignUp</a>
                             </div>
                             <div>
 
@@ -71,6 +73,63 @@
             </div>
         </main>
         <!--hero section-->
+        <!--Featured products section-->
+        <section class="featured-products">
+            <div class="container">
+                <div>
+                    <h2>Featured products</h2>
+                    <a href="#">View all products<i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="product"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product"></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="product"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Featured products section-->
+        <!--Categories section-->
+        <section class="categories">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Categories section-->
+        <!--Coupons section-->
+        <section class="coupons">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="coupons-info">
+                            <h2>get 25% off Discount Coupons</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst amet, metus, sit massa posuere maecenas. At tellus ut nunc amet vel egestas.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="coupons-box">
+                            <input type="email" placeholder="Enter your email address here...">
+                            <button>Subscribe now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Coupons section-->
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/script.js"></script>
     </body>
